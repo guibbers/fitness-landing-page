@@ -109,3 +109,98 @@ header .navigation li a:hover {
    background: #fff;
    color: #006696;
 }
+
+.sci {
+   position: absolute;
+   bottom: 30px;
+   display: flex;
+}
+
+.sci li {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sci li a {
+   position: relative;
+   display: inline-block;
+   margin-right: 20px;
+   filter: invert(1);
+   transform: scale(0.5);
+}
+
+@media (max-width: 991px) {
+   header {
+      padding: 15px 40px;
+   }
+   
+   section {
+      padding: 40px;
+      background: url(assets/bg2.jpg);
+      background-size: cover;
+      background-position: center;
+   }
+
+   .content .contentBx h2 {
+      font-size: 2.5em;
+   }
+
+   .content .contentBx p {
+      font-size: 1em;
+   }
+
+   header .navigation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #000;
+      z-index: 10;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   header .navigation li a {
+      font-size: 24px;
+      margin: 10px 0;      
+   }
+
+   header .navigation li a:hover {
+      transform: translateY(0px);
+      color: #fff;
+   }
+
+   header .navigation li a:active {
+      color: #03a9f4;    
+   }
+
+   .toggleMenu {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      background: url(assets/menu.png);
+      background-position: center;
+      background-size: 30px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      z-index: 11;
+   }
+
+   .toggleMenu.active {
+      background: url(assets/close.png);
+      background-position: center;
+      background-size: 25px;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      z-index: 11;
+   }
+
+   header .navigation.active {
+      display: flex;
+   }
+}
