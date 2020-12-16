@@ -8,5 +8,8 @@ Tutorial from [The Online Tutorials Youtube Channel](https://www.youtube.com/cha
 - [CSS](https://www.w3schools.com/css/)
 - [Javascript](https://www.w3schools.com/js/)
 
+
+click [here](https://guibbers.github.io/fitness-landing-page/) to access it.
+
 ## [Video Link](https://www.youtube.com/watch?v=Oz7YGEOeK7Y&ab_channel=OnlineTutorials)
 
